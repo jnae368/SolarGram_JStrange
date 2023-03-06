@@ -11,6 +11,11 @@
 		AEFCC3B629B2AD86006E79AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3B529B2AD86006E79AD /* ContentView.swift */; };
 		AEFCC3B829B2AD89006E79AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC3B729B2AD89006E79AD /* Assets.xcassets */; };
 		AEFCC3BB29B2AD89006E79AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC3BA29B2AD89006E79AD /* Preview Assets.xcassets */; };
+		AEFCC3C229B51F0C006E79AD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3C129B51F0C006E79AD /* SearchView.swift */; };
+		AEFCC3C729B521DA006E79AD /* SearchInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3C629B521D9006E79AD /* SearchInput.swift */; };
+		AEFCC3CB29B5373C006E79AD /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3CA29B5373C006E79AD /* Label.swift */; };
+		AEFCC3CD29B53A8A006E79AD /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3CC29B53A8A006E79AD /* Labels.swift */; };
+		AEFCC3CF29B53EE5006E79AD /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3CE29B53EE5006E79AD /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		AEFCC3B529B2AD86006E79AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEFCC3B729B2AD89006E79AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFCC3BA29B2AD89006E79AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEFCC3C129B51F0C006E79AD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AEFCC3C629B521D9006E79AD /* SearchInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInput.swift; sourceTree = "<group>"; };
+		AEFCC3CA29B5373C006E79AD /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		AEFCC3CC29B53A8A006E79AD /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		AEFCC3CE29B53EE5006E79AD /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,12 @@
 		AEFCC3B229B2AD86006E79AD /* SolarGram_JStrange */ = {
 			isa = PBXGroup;
 			children = (
+				AEFCC3C329B520E8006E79AD /* Components */,
 				AEFCC3B329B2AD86006E79AD /* SolarGram_JStrangeApp.swift */,
 				AEFCC3B529B2AD86006E79AD /* ContentView.swift */,
+				AEFCC3CE29B53EE5006E79AD /* Grid.swift */,
 				AEFCC3B729B2AD89006E79AD /* Assets.xcassets */,
+				AEFCC3C129B51F0C006E79AD /* SearchView.swift */,
 				AEFCC3B929B2AD89006E79AD /* Preview Content */,
 			);
 			path = SolarGram_JStrange;
@@ -65,6 +78,16 @@
 				AEFCC3BA29B2AD89006E79AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEFCC3C329B520E8006E79AD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AEFCC3C629B521D9006E79AD /* SearchInput.swift */,
+				AEFCC3CA29B5373C006E79AD /* Label.swift */,
+				AEFCC3CC29B53A8A006E79AD /* Labels.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFCC3B629B2AD86006E79AD /* ContentView.swift in Sources */,
+				AEFCC3C229B51F0C006E79AD /* SearchView.swift in Sources */,
+				AEFCC3CD29B53A8A006E79AD /* Labels.swift in Sources */,
+				AEFCC3C729B521DA006E79AD /* SearchInput.swift in Sources */,
+				AEFCC3CB29B5373C006E79AD /* Label.swift in Sources */,
+				AEFCC3CF29B53EE5006E79AD /* Grid.swift in Sources */,
 				AEFCC3B429B2AD86006E79AD /* SolarGram_JStrangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
